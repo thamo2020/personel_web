@@ -1,0 +1,41 @@
+*{margin:0; padding:0;}
+a {text-decoration:none; }
+.clearfix{overflow:auto;}
+.wrapper{
+	margin: 0 auto;
+	width: 1000px;
+	
+}
+.header-link ul{
+	margin:15px;
+	list-style: none;
+	margin-left: 500px;
+}
+.header-link ul li {
+	padding: 0 10px;
+	display: inline-block;
+	border-right: 1px solid black;
+}
+.header-link ul li:last-child{
+	border:0px;
+}
+.header-link ul li a{
+	color: black;
+	font-size: 20px;
+}
+.header-link ul li a:link{
+	color: black;
+	text-decoration: none;
+}
+.header-link ul li a:visited{
+	color: black;
+	text-decoration: none;
+}
+.header-link ul li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.header-link ul li a:active{
+	color: yellow;
+	text-decoration: underline;
+}
